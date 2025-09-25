@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.head{
+    width: 70vw;
+    height: 480px;
+    /* border: 1px solid #000000; */
+    display: flex;
+    flex-direction: column;
+    margin: 0px ;
+    margin: auto;
+    justify-content: space-between;
+}
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    display: flex;
+}
+.sen1{
+    display: flex;
+    flex-direction: column;
+    margin:16px 0px;
+}
+.inp{
+    width: 70vw;
+    padding:15px;
+    border-radius: 10px;
+}
+@media (max-width:1227px) {
+    .head{
+        width: 100vw;
+    }
+    .inp{
+        width: 100vw;
+    }
+    
+}
+.ls-box{
+    /* background-image: url(images.png); */
+    background-color: blue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70vw;
+    height:315px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.var{
+    width: 90px;
+    height: 120px;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.sec1{
+    width: 70vw;
+    height: 430px;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fst1{
+    width: 70vw;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 120px;
+    height: 190px;
+    /* border: 1px solid black; */
+    margin: 5px 3px;
+    
+}
+.img2{
+    width: 120px;
+    height: 100px;
+    border: 0.5px solid rgb(183, 183, 183);
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.sec2{
+    width: 70vw;
+    height: 200px;
+    margin: auto;
+}
+@media (max-width:1227px) {
+    .head,.inp,.ls-box,.sec1,.fst,.sec2{
+        width: 100vw;
+    }
+    /* .inp{
+        width: 100vw;
+    }
+    .ls-box{
+        width: 100vw;
+    }
+    .sec1{
+        width: 100vw;
+    }
+    .fst{
+        width: 100vw;
+    }
+    .sec2{
+        width: 100vw;
+    } */
+    
+}
